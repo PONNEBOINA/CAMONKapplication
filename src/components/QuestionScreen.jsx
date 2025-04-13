@@ -1,6 +1,7 @@
 import {useState,useEffect} from "react"
 import SentenceBuilder from "./SentenceBuilder"
-import WordOptions from  "./wordOption"
+import WordOptions from "./Options.jsx"
+
 function QuestionScreen({data,onNext}){
     const [filledWords,setFilledWords] = useState(Array(data.blanks).fill(""))
     const [wordsLeft,setWordsLeft] = useState(data.options)
