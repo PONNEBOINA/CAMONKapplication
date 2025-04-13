@@ -1,0 +1,19 @@
+[
+    {
+      "sentence": "The quick __ fox jumps over the lazy __.",
+      "blanks": 2,
+      "options": ["brown", "dog", "cat", "slow"],
+      "answer": ["brown", "dog"]
+    },
+    {
+      "sentence": "She sells __ by the __ shore.",
+      "blanks": 2,
+      "options": ["shells", "seashells", "sea", "soap"],
+      "answer": ["seashells", "sea"]
+    },{
+      "sentence": "Find the __ under the __ .",
+      "blanks": 2,
+      "options": ["fish", "cat", "mat", "shoe"],
+      "answer": ["cat", "mat"]
+    }
+  ]
